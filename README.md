@@ -1,41 +1,49 @@
-YouTube Downloader
+# YouTube Downloader
 
-A YouTube downloader written in Python, featuring a Graphical User Interface (GUI) that acts as a wrapper around yt-dlp.
-Requirements
+A YouTube downloader written in Python, featuring a graphical user interface (GUI) that acts as a wrapper around `yt-dlp`.
+
+## Requirements
 
 Make sure the following dependencies are installed before running the application:
 
-    Python – Required to run the application.
-    yt-dlp – Must be installed.
-    FFmpeg – Must be installed and accessible from the system PATH.
+1. **Python** – Required to run the application.
+2. **yt-dlp** – Must be installed.
+3. **FFmpeg** – Must be installed and accessible from the system PATH.
 
-How to Run
+## How to Run
 
 Launch the application using the startup script appropriate for your operating system.
-Windows
 
-Run the following command:
-bat
+### Windows
 
+Run:
+
+```bat
 start.bat
 
-Linux / macOS
 
-Run the following commands:
-bash
+### Linux / macOS
+
+Run:
+```bash
 
 chmod +x start.sh
 ./start.sh
 
-About
+## About
 
-    Built using Python.
-    Provides a Graphical User Interface (GUI).
-    Uses yt-dlp as the underlying YouTube downloading engine.
-    Uses FFmpeg for media processing and merging audio/video streams.
+1.     Built using Python.
 
-Notes
+2.     Provides a graphical user interface (GUI).
 
-    Ensure yt-dlp is installed and working correctly.
-    Ensure FFmpeg is installed and accessible through the system PATH.
-    Run the appropriate startup script for your operating system.
+3.     Uses yt-dlp as the underlying YouTube downloading engine.
+
+4.     Uses FFmpeg for media processing and merging audio/video streams.
+
+## Notes
+
+1.     Ensure yt-dlp is installed and working.
+
+2.     Ensure FFmpeg is installed and accessible through the system PATH.
+
+3.     Run the appropriate startup script for your operating system.
